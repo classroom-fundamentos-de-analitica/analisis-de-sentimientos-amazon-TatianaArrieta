@@ -33,7 +33,7 @@ def pregunta_01():
     df_untagged = df[df["1b1"].isnull()]
 
     x_tagged = df_tagged["msg"]
-    y_tagged = df_tagged["lbl"]
+    y_tagged = df_tagged["1b1"]
 
     x_untagged = df_untagged["msg"]
     y_untagged = df_untagged["lbl"]
